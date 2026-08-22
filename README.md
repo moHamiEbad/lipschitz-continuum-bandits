@@ -42,9 +42,9 @@ $$
 
 and the expected reward is described by an unknown function
 
-\[
+$$
 f:\mathcal{X}\rightarrow[0,1].
-\]
+$$
 
 We assume that $f$ is Lipschitz, so nearby actions cannot have arbitrarily different expected rewards. The main question of the project was whether this geometric structure could be used to obtain useful regret bounds for a continuous bandit problem.
 
@@ -120,8 +120,7 @@ $$
 leads to the dominant rate
 
 $$
-R(n)
-=
+R(n) =
 O\!\left(
 n^{\frac{d+1}{d+2}}\sqrt{\log n}
 \right),

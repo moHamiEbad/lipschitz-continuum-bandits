@@ -1,0 +1,43 @@
+# =========================
+# LaTeX build artifacts
+# =========================
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+
+# Beamer build artifacts
+*.nav
+*.snm
+*.vrb
+
+# Temporary LaTeX files
+*.tmp
+*.bak
+*.backup
+*.dvi
+
+# =========================
+# Editors
+# =========================
+.vscode/
+.idea/
+*~
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db

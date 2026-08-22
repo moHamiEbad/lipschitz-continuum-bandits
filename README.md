@@ -57,8 +57,7 @@ The work develops two different approaches. The first produces a concrete bound 
 For a finite $K$-armed bandit, UCB1 assigns each arm an index combining its empirical reward with an uncertainty bonus:
 
 $$
-I_i(t)
-=
+I_i(t) =
 \widehat{\mu}_i(t-1)
 +
 \sqrt{\frac{2\log t}{T_i(t-1)}}.
@@ -70,7 +69,7 @@ The project starts from the classical finite-arm regret analysis and then asks h
 
 ---
 
-## Attempt 1 — Discretization with an \(\varepsilon\)-Cover
+## Attempt 1 — Discretization with an $\varepsilon$-Cover
 
 The first approach replaces the continuous action space with a finite $\varepsilon$-net
 
